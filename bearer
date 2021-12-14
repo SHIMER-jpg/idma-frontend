@@ -1,0 +1,10 @@
+id= 3838
+redirection= localhost:3000
+client_secret= vBJ7HCivzS7aW1vi5vpDwOxj6SAlcNp6vGwlF7esN98khc9s
+
+
+curl https://www.tiendanube.com/apps/authorize/token --data 'client_id=3838&client_secret=vBJ7HCivzS7aW1vi5vpDwOxj6SAlcNp6vGwlF7esN98khc9s&grant_type=authorization_code&code=7b547725856d3158aad05619864cfaa25d082034'
+
+
+
+{"access_token":"632c3fca7b5492f983f6bd45ab8ae1b23164eb7f","token_type":"bearer","scope":"read_content,read_products,write_products,read_coupons,write_coupons,read_customers,read_orders,read_draft_orders","user_id":1661431}
